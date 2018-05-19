@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/Test5</property>
+    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
+    <property name="hibernate.connection.username">postgres</property>
+    <property name="hibernate.connection.password">postgres</property>
+    <property name="hibernate.hbm2ddl.auto">update </property>
+    <mapping class="com.xvr.entities.DepartmentEntity"/>
+      <mapping class="com.xvr.entities.DepartmentUnitEntity"/>
+      <mapping class="com.xvr.entities.EquipmentEntity"/>
+      <mapping class="com.xvr.entities.EquipmentStatusEntity"/>
+      <mapping class="com.xvr.entities.EquipmentTypeEntity"/>
+      <mapping class="com.xvr.entities.PositionEntity"/>
+      <mapping class="com.xvr.entities.RequestEntity"/>
+      <mapping class="com.xvr.entities.RequestStatusEntity"/>
+      <mapping class="com.xvr.entities.StuffEntity"/>
+    <!-- DB schema will be updated if needed -->
+  </session-factory>
+</hibernate-configuration>
