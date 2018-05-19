@@ -17,7 +17,7 @@
     <facet type="hibernate" name="Hibernate">
       <configuration>
         <datasource-map>
-          <unit-entry name="com:xvr:PersistenceUnitt.xml" value="fd901ac1-7eb7-4be0-aed9-291e81057a5f" />
+          <unit-entry name="Persistence.xml" value="fd901ac1-7eb7-4be0-aed9-291e81057a5f" />
           <unit-entry name="com:xvr:unit.xml" value="fd901ac1-7eb7-4be0-aed9-291e81057a5f" />
         </datasource-map>
         <naming-strategy-map />

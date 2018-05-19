@@ -1,5 +1,6 @@
 package com.xvr.entities;
 
+
 import javax.persistence.*;
 import java.util.Objects;
 
